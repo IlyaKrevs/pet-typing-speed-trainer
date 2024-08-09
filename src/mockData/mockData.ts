@@ -1,0 +1,10 @@
+let first: string = 'apple berry bridge bright cherry dance happy house light water orange pencil quiet summer river table coffee tasty sister winter green friend happy world phone apple house tree cloud shadow grass music orange pizza salad golden heart local friend river happy game summer ideas ocean travel water dance garden winter flower basket blanket doctor family garden travel umbrella sunset morning rainbow apple light bridge flower cheerful heart berry week coffee movie lunch beach party dance pillow'
+
+let second: string = 'about apple beach crowd dance earth faith fresh grass heart light modern ocean peace plant power quiet round shine smile story sweet things travel truth water world young summer bright calm clear cloud dream event flower happy laugh mango mountain music nature notice ocean party river rocks safari sister skill smile space stone storm sunny storm swing table tiger token tree voice watch winter yellow beach carry change climb color dance flower gentle gift heart honey inky junior lemon magic night open orange picture pink rainbow river round secret sky space spring strong summer taste tiger train true unite value visit weekend writers yellow'
+
+let third: string = 'about apple blanket bright bubbles castle cherry crisp dance dreams eagle family flower funny happy holiday island kitchen lemon magic meadow mirror mountain notice orange purple rabbit salmon season shine smile stable story summer talent thunder ticket travel tunnel water willow winter writer yellow zone sweet things travel truth water world young summer bright calm clear cloud dream event flower happy laugh mango mountain music nature notice ocean party river rocks safari sister skill smile space stone storm sunny storm swing table tiger token tree voice watch winter yellow beach carry change climb color dance flower gentle gift heart honey inky junior lemon magic night open'
+
+
+const mockData = [first, second, third]
+
+export { mockData }

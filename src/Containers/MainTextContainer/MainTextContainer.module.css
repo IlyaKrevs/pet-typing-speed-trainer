@@ -1,0 +1,11 @@
+.mainContainer {
+    width: 1280px;
+
+    font-size: x-large;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+
+    color: lightgray;
+}
