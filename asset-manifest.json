@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pet-typing-speed-trainer/static/css/main.22269031.css",
+    "main.js": "/pet-typing-speed-trainer/static/js/main.43efa3bf.js",
+    "index.html": "/pet-typing-speed-trainer/index.html",
+    "main.22269031.css.map": "/pet-typing-speed-trainer/static/css/main.22269031.css.map",
+    "main.43efa3bf.js.map": "/pet-typing-speed-trainer/static/js/main.43efa3bf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22269031.css",
+    "static/js/main.43efa3bf.js"
+  ]
+}
