@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 import styles from './Word.module.css'
 import { Letter } from '../Letter/Letter'
 
@@ -8,7 +8,9 @@ interface IWord {
     isActive: boolean
 }
 
-export const Word: React.FC<IWord> = ({ word, userInput, isActive }) => {
+export const Word: React.FC<IWord> = memo(({ word, userInput, isActive }) => {
+
+    // console.log('render word', word)
 
     let basicLetters = word.split('')
 
@@ -44,6 +46,7 @@ export const Word: React.FC<IWord> = ({ word, userInput, isActive }) => {
         <div className={styles.mainContainer}>
             {resultLetters.map((item, index) => {
                 return <Letter
+                    key={index}
                     letter={item}
                     status={userLetters[index] ? (item === userLetters[index]) : null}
                     extra={index > (basicLetters.length - 1)}
@@ -54,3 +57,4 @@ export const Word: React.FC<IWord> = ({ word, userInput, isActive }) => {
         </div>
     )
 }
+)

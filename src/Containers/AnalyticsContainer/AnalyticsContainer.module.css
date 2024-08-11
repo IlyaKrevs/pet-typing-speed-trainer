@@ -1,0 +1,52 @@
+@import '../../const//variables.css';
+
+.mainContainter {
+    width: 100%;
+    padding: 30px;
+
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+
+    color: var(--first-color);
+    font-size: var(--medium-size);
+
+    font-weight: 800;
+
+    text-transform: capitalize;
+}
+
+
+.groupContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    font-size: var(--medium-size);
+}
+
+.groupTitle {}
+
+.groupValue {
+    display: flex;
+    gap: 10px;
+}
+
+.itemContainer {
+    display: flex;
+    gap: 10px;
+
+}
+
+.itemTitle {}
+
+.itemValue {}
+
+
+@media (max-width: 425px) {
+    .mainContainter {
+        flex-direction: column;
+        padding: 10px;
+        gap: 10px;
+    }
+}

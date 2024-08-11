@@ -1,21 +1,23 @@
+@import '../../const//variables.css';
+
 .mainContainer {
     padding-left: 4px;
     position: relative;
 }
 
 .trueStatus {
-    color: green;
+    color: var(--good-color);
 }
 
 .falseStatus {
-    color: red;
+    color: var(--wrong-color);
 }
 
 .carriage {
     position: absolute;
     height: 100%;
     width: 4px;
-    background-color: #c4cf1e;
+    background-color: var(--first-color);
     top: 0;
 
     animation: blink 0.5s infinite alternate;
@@ -30,7 +32,7 @@
 }
 
 .extra {
-    color: rgb(126, 13, 13)
+    color: var(--extra-wrong-color)
 }
 
 

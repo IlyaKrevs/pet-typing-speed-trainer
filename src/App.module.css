@@ -1,5 +1,7 @@
 .App {
     display: flex;
+    flex-direction: column;
+    gap: 50px;
     justify-content: center;
     align-items: center;
 
@@ -7,4 +9,18 @@
     height: 100vh;
 
     background-color: #504c4c;
+}
+
+.content {
+    width: 1280px;
+}
+
+@media (max-width: 425px) {
+    .App {
+        height: auto;
+    }
+
+    .content {
+        width: 425px;
+    }
 }

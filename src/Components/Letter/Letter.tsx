@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 import styles from './Letter.module.css'
 
 
@@ -10,7 +10,10 @@ interface ILetter {
     isFirstSymbol: boolean,
 }
 
-export const Letter: React.FC<ILetter> = ({ letter, status, extra, showCarriage, isFirstSymbol }) => {
+export const Letter: React.FC<ILetter> = memo(({ letter, status, extra, showCarriage, isFirstSymbol }) => {
+
+
+    // console.log('render letter', letter)
 
     let resultStyle = [styles.mainContainer]
 
@@ -42,3 +45,5 @@ export const Letter: React.FC<ILetter> = ({ letter, status, extra, showCarriage,
         </div>
     )
 }
+)
+

@@ -1,11 +1,48 @@
-.mainContainer {
-    width: 1280px;
+@import '../../const//variables.css';
 
-    font-size: x-large;
+.mainContainer {
+    font-size: var(--big-size);
 
     display: flex;
     flex-wrap: wrap;
     gap: 10px 20px;
 
-    color: lightgray;
+    color: var(--second-color);
+
+    cursor: pointer;
+
+    position: relative;
 }
+
+.inputStyle {
+    position: absolute;
+
+    opacity: 0;
+}
+
+
+.blurContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    opacity: 0.8;
+    background: black;
+
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.restartButton {
+    width: 100px;
+    height: 50px;
+
+    font-size: var(--medium-size);
+    cursor: pointer;
+}
+

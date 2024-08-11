@@ -1,0 +1,10 @@
+:root {
+    --big-size: x-large;
+    --medium-size: large;
+    --first-color: rgb(189, 201, 22);
+    --second-color: lightgray;
+    --good-color: green;
+    --wrong-color: red;
+    --extra-wrong-color: rgb(126, 13, 13);
+}
+
